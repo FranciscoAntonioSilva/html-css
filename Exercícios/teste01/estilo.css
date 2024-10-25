@@ -1,0 +1,19 @@
+.titulo{
+    color:blue;
+    text-align: center;
+}
+
+.paragrafo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+}
+
+.titulo2{
+    color:firebrick;
+    text-align: center;
+}
+
+.corpo{
+    background-color: aqua;
+}
+

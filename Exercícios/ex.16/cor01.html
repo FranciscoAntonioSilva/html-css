@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cores em CSS</title>
+    <style>
+        *{
+            margin:auto
+        }
+
+        body{
+            background-image: linear-gradient(to top, #0E75CC, #0F91D0, #0FBDE2, #18EFF2);
+            background-attachment: fixed;
+            }
+
+        h1{
+            color:#ffffff;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px;
+            text-align: center;
+            }
+
+        h2{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            }
+
+        p{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: justify;
+            }
+
+        button{
+            background-color: #0F91D0;
+            border-radius: 10%;
+            }
+
+        a.estilo1:link{color:#ff0000;}
+        a.estilo1:visited{color:#0c5bd2}
+        a.estilo1:hover{font-size: 15px;}
+    </style>
+</head>
+<body>
+    <!--Representação por nomes-->
+    <h1>Testando Cores</h1>
+    <h2 style="background-color: #0c5bd2; color: white">Exemplo de Cores</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, maxime nemo natus dolore repellendus culpa reprehenderit repudiandae aperiam! Optio sed culpa magni perferendis? Ducimus sit beatae eligendi ipsum expedita voluptas?</p>
+    <!--Representação por códigos Hexadecimal-->
+    <!--Decimal: 0 1 2 3 4 5 6 7 8 9-->
+    <!--Hexadecimal: 0 1 2 3 4 5 6 7 8 9 A B C D F-->
+    <h2 style="background-color: #0c5bd2; color: #ffffff">Exemplo de Cores</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, maxime nemo natus dolore repellendus culpa reprehenderit repudiandae aperiam! Optio sed culpa magni perferendis? Ducimus sit beatae eligendi ipsum expedita voluptas?</p>
+    <!--Código RGB normal-->
+    <h2 style="background-color: rgb(16, 82, 188); color: rgb(255, 255, 255)">Exemplo de Cores</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, maxime nemo natus dolore repellendus culpa reprehenderit repudiandae aperiam! Optio sed culpa magni perferendis? Ducimus sit beatae eligendi ipsum expedita voluptas?</p>
+    <!--Representação por HSL (Hue, Sturation, Luminosity)-->
+    <h2 style="background-color: hsl(217, 84%, 40%); color: hsl(0, 0%, 100%)">Exemplo de Cores</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, maxime nemo natus dolore repellendus culpa reprehenderit repudiandae aperiam! Optio sed culpa magni perferendis? Ducimus sit beatae eligendi ipsum expedita voluptas?</p>
+    <!--Dica para colocar os padrões de cores mais rápidos-->
+    <h2 style="background-color: rgba(17, 105, 214, 0.432); color: rgb(232, 236, 10)">Exemplo de Cores</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, maxime nemo natus dolore repellendus culpa reprehenderit repudiandae aperiam! Optio sed culpa magni perferendis? Ducimus sit beatae eligendi ipsum expedita voluptas?</p>
+    <br>
+    <button>
+        <a class="estilo1" href="cor02.html" target="_self" rel="next">
+            <p>Próxima página</p>
+        </a>
+    </button>
+</body>
+</html>
