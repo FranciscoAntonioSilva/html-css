@@ -17,6 +17,7 @@
             margin: auto;
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -38,6 +39,12 @@
         thead, tfoot {
             background-color: #383838;
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: #383838;
         }
 
         tbody > tr:nth-child(odd) {
